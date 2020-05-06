@@ -5,6 +5,9 @@ def line(katz_deli)
     current_line = []
     katz_deli.each_with_index do |e, i|
       current_line << "#{i + 1}. #{e}"
+    end
+  end
+  puts "The line is currently: #{current_line.split(" ")}"
     
 
 def take_a_number(katz_deli, name)
