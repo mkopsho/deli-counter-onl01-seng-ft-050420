@@ -7,7 +7,7 @@ def line(katz_deli)
       current_line << "#{i + 1}. #{e}"
     end
   end
-  puts "The line is currently: #{current_line.split(" ")}"
+  puts "The line is currently: #{current_line.join(" ")}"
     
 
 def take_a_number(katz_deli, name)
